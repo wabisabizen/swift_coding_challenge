@@ -22,8 +22,13 @@ This challenge is designed to demonstrate your knowledge of Xcode & Swift.
 <strong> 
   <ul>
     <li> Use autolayout and varying constraints for size classes to create a dynamic layout for iphone & ipad. </li>
-    <li> Use a collectionView to lay out the elements - the cards, each composed of an image and text. </li>
-    <li> You can use any image and text you'd like. </li>
+    <li> Use a collectionView to lay out the elements - the User cards. </li>
+    <li> Create a User struct that has the following properties: 
+          <ul>
+            <li> avatar </li> 
+            <li> name </li>
+          </ul>
+    <li> Load cells programmatically from an array of at least 15 unique Users. You can use any image and text you'd like. </li>
     <li> Add any files or comments you need to complete each challenge. We are especially interested in clean code and MVVM architectures. </li>
   </ul> 
 </strong>
@@ -32,16 +37,19 @@ This challenge is designed to demonstrate your knowledge of Xcode & Swift.
 <strong> iPhone </strong>
 <ul>
     <li> Cell takes up full width of the screen. Vertical scroll. </li>
-    <li> Left-align image. </li>
-    <li> Text inline with image. </li>
+    <li> Left-align avatar. </li>
+    <li> Name inline with image. </li>
 </ul> 
 <img src = "images/iphone.png">
 
 <br></br>
 <strong> iPad </strong>
 <ul>
-  <li> Three cells per row. Vertical scroll. </li>
-  <li> Center-align image. </li>
-  <li> Text is below the image. </li>
+  <li> Three cells per row, evenly spaced. Vertical scroll. </li>
+  <li> Center-align avatar. </li>
+  <li> Name is below the image. </li>
 </ul> 
 <img src = "images/ipad.png">
+
+<br></br>
+UI elements do not have to exactly match with the reference images provided; cells do not need to have gradients and shadows. You can decide on the dimensions of each cell. 
